@@ -1,0 +1,15 @@
+==> To create a new repository on the command line
+
+echo "# Personal-Portfolio-with-React-and-ThreeJS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ayon037/Personal-Portfolio-with-React-and-ThreeJS.git
+git push -u origin main
+
+==> To push an existing repository from the command line
+git remote add origin https://github.com/ayon037/Personal-Portfolio-with-React-and-ThreeJS.git
+git branch -M main
+git push -u origin main
+
