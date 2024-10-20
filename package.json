@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drive.google.com/file/d/152SsxieUEAHK6fwdDFCezR9cfpBJ5Fhz/view?usp=sharing",
+  "homepage": "https://ayon037.github.io/Portfolio-With-ReactJS",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

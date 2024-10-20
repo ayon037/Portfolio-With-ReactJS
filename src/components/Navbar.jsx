@@ -65,7 +65,7 @@ const Navbar = () => {
           {/* Download CV Button */}
           <li>
             <a
-              href='https://drive.google.com/file/d/1-J1J1g6U5B2Zmm7hqnWsMdZLjMdCkN-p/view?usp=sharing'
+              href='https://drive.google.com/file/d/152SsxieUEAHK6fwdDFCezR9cfpBJ5Fhz/view?usp=sharing'
               download
               className='text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 px-4 rounded-md'
             >
