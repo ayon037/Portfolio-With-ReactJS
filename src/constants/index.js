@@ -27,6 +27,8 @@ import {
     aspire,
     ruby_on_rails,
     redis,
+    technonext,
+    barikoi,
   } from "../assets";
   import gym from "../assets/gym.png"; 
   import Money_Manager from "../assets/money_manager.png"; 
@@ -117,7 +119,7 @@ import {
     {
       title: "Junior Software Engineer",
       company_name: "TechnoNext Software Limited",
-      icon: starbucks,
+      icon: technonext,
       iconBg: "#383E56",
       date: "July 2025 - Present",
       points: [
@@ -130,7 +132,7 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "BariKoi Maps",
-      icon: tesla,
+      icon: barikoi,
       iconBg: "#E6DEDD",
       date: "May 2025 - July 2025",
       points: [
@@ -154,7 +156,7 @@ import {
     {
       title: "Team Coordinator, App & Web Development",
       company_name: "MIST Innovation Club (MIC)",
-      icon: meta,
+      icon: tesla,
       iconBg: "#383E56",
       date: "Apr 2022 - Mar 2023",
       points: [

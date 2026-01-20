@@ -33,6 +33,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import udacity from "./udacity.png";
 import aspire from "./aspire.png";
+import technonext from "./technonext.png";
+import barikoi from "./barikoi.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   tripguide,
   udacity,
   aspire,
+  technonext,
+  barikoi,
 };
