@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    udacity,
+    aspire,
+    ruby_on_rails,
+    redis,
   } from "../assets";
   import gym from "../assets/gym.png"; 
   import Money_Manager from "../assets/money_manager.png"; 
@@ -49,11 +53,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Software Engineer",
       icon: mobile,
     },
     {
@@ -61,7 +65,7 @@ import {
       icon: backend,
     },
     {
-      title: "Competitive Programmer",
+      title: "Problem Solver",
       icon: creator,
     },
   ];
@@ -79,94 +83,84 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "Ruby on Rails",
+      icon: ruby_on_rails,
+    },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
-      name: "git",
+      name: "Redis",
+      icon: redis,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
     {
-      title: "Industrial Trainee",
-      company_name: "Bangladesh Computer Council (BCC)",
+      title: "Junior Software Engineer",
+      company_name: "TechnoNext Software Limited",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2023 - Feb 2023",
+      date: "July 2025 - Present",
       points: [
-        "Learnt about software quality assurance and software testing and how they plan, control, analyze and implement different kind of softwares.",
-        "Attented a session at Network Operation Center to get knowledge about how network links are monitored and security is assured of data center.",
-        "Learn about Computer Incident Response Team (CIRT) and what they follor to ensure the security of any software.",
-        "Visited National Data Center and got some overview about the maintenance of data and the planning for the security assurance",
-        "Got an overview about an ongoing project of Bangla Language Enrichment which is under Bangladesh Computer Council."
+        "Developed and implemented new features for production level projects and reviewed existing codebases to deliver optimized and maintainable solutions.",
+        "Conducted research and development, market analysis, and code optimization to improve memory efficiency and data retrieval performance.",
+        "Collaborated with team leads and managers to analyze user requirements and define efficient strategies.",
+        "Tech Stack: Ruby on Rails, PostgreSQL, Redis, Docker, JavaScript, Tailwind CSS"
       ],
     },
     {
-      title: "Team Coordinator, App & Web Application",
-      company_name: "MIST Innovation Club (MIC)",
+      title: "Software Engineer Intern",
+      company_name: "BariKoi Maps",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Apr 2022 - Mar 2023",
+      date: "May 2025 - July 2025",
       points: [
-        "Conducted workshops on basic Web Development Programming Languages - Hyper Text Markup Language (HTML), Cascading Style Sheet (CSS), and Bootstrap to give newly admitted students an overview of web development.",
-        "Took the initiative to create an all-club website to make all information available to the students about past events, former members, present members, and future activities in various clubs accessible.",
-        "Provided essential mentorship and support to the club members, correcting their issues and facilitating professional growth.",
+        "Converted 360° videos into 360° images using Python for efficient image processing in mapping applications.",
+        "Built desktop application with PyQt, PostgreSQL, and FastAPI to process and visualize 360° images in real time.",
+        "Integrated HTTP protocols and JSON-based communication for smooth client-server interaction.",
+        "Tech Stack: Python, PostgreSQL, JavaScript, FastAPI, Image Processing"
       ],
     },
     {
-      title: "Member, Mentor",
+      title: "Assistant Treasurer, Teaching Assistant",
       company_name: "MIST Computer Club (MCC)",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2021 - Mar 2023",
       points: [
-        "Conducted sessions on different algorithms and competitive programming problems.",
-        "Organized and volunteered in several events like the National Collegiate Programming Contest (NCPC) 2020, Campus Hour Programs, LeetCon 2023, Independence Day Programming Contest (IDPC) 2023, etc.",
+        "Conducted sessions on algorithms and competitive programming problems.",
+        "Organized and volunteered in programming contests including NCPC 2020, LeetCon 2023, and IDPC 2023.",
       ],
     },
     {
-      title: "Member, Software and Communication Team",
-      company_name: "MIST Mongol Barota",
+      title: "Team Coordinator, App & Web Development",
+      company_name: "MIST Innovation Club (MIC)",
       icon: meta,
       iconBg: "#383E56",
-      date: "Jul 2020 - Jan 2021",
+      date: "Apr 2022 - Mar 2023",
       points: [
-        "Worked with MIST Mongol Barota, a rover developing team of MIST, and participated in the International Rover Competition as a Software and Communication Team member.",
+        "Conducted workshops on HTML, CSS, and Bootstrap for newly admitted students.",
+        "Led initiative to create an all-club website for student information and activities.",
+        "Provided mentorship and support to club members for professional growth.",
       ],
     }
   ];
@@ -178,9 +172,9 @@ import {
       link: "https://shorturl.at/SPtR0",
     },
     {
-      title: "Machine Learning with Python",
-      image: linkedin,
-      link: "https://drive.google.com/file/d/10vRVJ4acNHXHC-ic4ZdP8aj9JMn32uT0/view",
+      title: "Introducing Generative AI with AWS",
+      image: udacity,
+      link: "https://drive.google.com/file/d/1VVYz8XeAfpgzRxIKK-VUfL6fzF_Uphg7/view",
     },
     {
       title: "Problem Solving (Basic)",
@@ -188,19 +182,19 @@ import {
       link: "https://www.hackerrank.com/certificates/a4336e405dde",
     },
     {
-      title: "Cryptography and Information Theory",
-      image: coursera,
-      link: "https://shorturl.at/ZPsPL",
-    },
-    {
       title: "Data Analysis in Excel",
       image: datacamp,
       link: "https://shorturl.at/L9eju",
     },
     {
-      title: "ICPC Dhaka Regional",
+      title: "ICPC Dhaka Regional Participant",
       image: icpc,
       link: "https://drive.google.com/file/d/1ZGJRdELeY1XXs7jj1yZsov1_3h2Ip4be/view?usp=sharing",
+    },
+    {
+      title: "Aspire Leaders Program Graduate",
+      image: aspire,
+      link: "https://drive.google.com/file/d/1lb3mhCeaQgLNAkUB1AjImEl2HoCVZeBT/view",
     },
   ];
   
@@ -331,4 +325,28 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const publications = [
+    {
+      title: "ProfAgent: Profiling-Guided Agentic Reasoning for Adaptive Model Optimization",
+      authors: "Sadegh Jafari, Aishwarya Sarkar, <strong>Mohiuddin Bilwal</strong>, Ali Jannesari",
+      venue: "arXiv preprint",
+      year: "2024",
+      link: "https://www.arxiv.org/abs/2509.05584",
+    },
+    {
+      title: "Proposing and Evaluating a Modified Keyboard Layout for One-Handed Users",
+      authors: "<strong>Mohiuddin Bilwal</strong>, Sayedul Abrar, Zinia Sultana, Jamal Uddin Tanvin, Rafi Md Ragib Shahriar, Md. Mostafizur Rahman, Muhammad Nazrul Islam",
+      venue: "27th International Conference on Computer and Information Technology (ICCIT 2024)",
+      year: "2024",
+      link: "https://ieeexplore.ieee.org/document/11021771",
+    },
+    {
+      title: "A Multi-Modal Assistive Robot Navigation System for Physically Impaired Users",
+      authors: "<strong>Mohiuddin Bilwal</strong>, Jamal Uddin Tanvin, Shekh Md Saifur Rahman, M Rayhan Ferdous Faisal, Abrar Faiyaz Khan, Sheikh Easin Arafat, M. Akhtaruzzaman",
+      venue: "IEEE International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN 2025)",
+      year: "2025",
+      link: "https://ieeexplore.ieee.org/document/11171861",
+    },
+  ];
+
+  export { services, technologies, experiences, testimonials, publications, projects };

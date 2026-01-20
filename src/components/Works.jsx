@@ -18,7 +18,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link})=>{
         scale:1,
         speed:450
       }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[520px] flex flex-col"
       >
 
         <div
@@ -49,10 +49,10 @@ const ProjectCard=({index,name,description,tags,image,source_code_link})=>{
 
 
         <div
-        className='mt-5'
+        className='mt-5 flex-1 flex flex-col'
         >
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 className='text-white font-bold text-[20px] leading-tight'>{name}</h3>
+          <p className='mt-2 text-secondary text-[14px] flex-1 leading-relaxed'>{description}</p>
 
         </div>
 

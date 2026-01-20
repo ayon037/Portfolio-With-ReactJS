@@ -47,34 +47,26 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
       >
-       As a CSE graduate of Military Institute of Science and Technology (MIST), 
-       I have over 2 years of experience in teaching basic data structure and 
-       algorithms, honing leadership, teamwork, management, and communication skills. 
-       I'm proficient in C++, Python, and Java programming languages with strong 
-       computer science knowledge. I'm an AI enthusiast and have a great interest in 
-       machine learning, deep learning, and Problem Solving. I'm certified in Microsoft 
-       Azure AI Fundamentals, an open-source contributor at GSSoC' in 2023, attended 
-       Aspire Leaders' Program Cohort 1 in 2024, ICPC Dhaka Regionalist of 2023, and 
-       participated in SUST IUPC and NCPC Regional programming contests in 2024.
+       I'm Mohiuddin Bilwal, a Computer Science and Engineering graduate from Military Institute of Science and Technology (MIST) 
+       with hands-on experience as a Junior Software Engineer at TechnoNext Software Limited. I specialize in full-stack development 
+       using Ruby on Rails, PostgreSQL, and modern web technologies.
 
-       I have worked on different projects during my academic programs including 
-       web development, database management, app development, circuit designing, 
-       integrated design projects etc. I was a member of the Software and Communications 
-       team of 'MIST Mongol Barota' which became the virtual champion at the University 
-       Rover Challenge (URC) in 2021, during the COVID pandemic. It was the first time 
-       in Bangladesh that any institution achieved the first position in this competition. 
-       I have also worked as a volunteer in different events like NCPC and LeetCon. 
-       Currently, I'm enrolled in the Data Science Lab provided by WorldQuant University, 
-       a renowned online university learning platform in the USA, where I'm learning about 
-       how to deal with different time series data. Also, I'm working on some
-      Natural Language Processing and Generative AI related projects.
+       During my internship at BariKoi Maps, I developed desktop applications for 360° image processing and built APIs for 
+       real-time data visualization. I have strong programming skills in Python, Java, C++, and JavaScript, with experience 
+       in machine learning, web development, and database management.
 
-       While working as an intern at the Bangladesh Computer Council (BCC), I gathered 
-       some knowledge about Networking, Video Conferencing, Cybersecurity, and 
-       other Software development fields where I found my passion in Software Development 
-       fields. Furthermore, I'm passionate about data science and data analytics. I aim to 
-       become a software engineer where I can contribute to building innovative solutions for 
-       real-world problems.
+       I'm passionate about solving real-world problems through technology. My notable projects include developing a 
+       semi-autonomous wheelchair system using computer vision, building AI-powered website navigation tools, and creating 
+       comprehensive management systems. I've participated in competitive programming contests including ICPC Dhaka Regional 
+       and have solved over 1,500 coding problems.
+
+       As a former team coordinator at MIST Innovation Club and teaching assistant at MIST Computer Club, I have experience 
+       mentoring students and organizing technical workshops. I was part of the MIST Mongol Barota team that achieved 1st 
+       position globally in the University Rover Challenge 2021.
+
+       I'm Microsoft Azure AI Fundamentals certified and continuously learning new technologies. I'm looking for opportunities 
+       to contribute to innovative software development projects where I can apply my technical skills and grow as a professional 
+       software engineer.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

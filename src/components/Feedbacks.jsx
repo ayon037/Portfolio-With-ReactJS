@@ -7,14 +7,14 @@ import { testimonials } from '../constants';
 const FeedbackCard = ({ index, image, title, link }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-black-200 p-6 rounded-3xl xs:w-[320px] w-full h-[280px] flex flex-col"
   >
-    <h3 className="text-white font-bold text-[24px] mb-2">{title}</h3> {/* Title of the certificate */}
-    <a href={link} target="_blank" rel="noopener noreferrer"> {/* Anchor tag for clickable image */}
+    <h3 className="text-white font-bold text-[18px] mb-4 text-center leading-tight">{title}</h3>
+    <a href={link} target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center">
       <img
         src={image}
         alt={`certificate-${index}`}
-        className="w-auto h-auto rounded-lg object-cover cursor-pointer" // Added cursor-pointer for better UX
+        className="w-[160px] h-[160px] rounded-lg object-contain cursor-pointer"
       />
     </a>
   </motion.div>

@@ -62,14 +62,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          {/* Download CV Button */}
+          {/* Download Resume Button */}
           <li>
             <a
-              href='https://drive.google.com/file/d/152SsxieUEAHK6fwdDFCezR9cfpBJ5Fhz/view'
-              download
+              href='/Mohiuddin_Bilwal_Resume.pdf'
+              download='Mohiuddin_Bilwal_Resume.pdf'
               className='text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 px-4 rounded-md'
             >
-              Download CV
+              Download Resume
             </a>
           </li>
         </ul>
@@ -103,14 +103,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              {/* Download CV Button for Mobile */}
+              {/* Download Resume Button for Mobile */}
               <li>
                 <a
-                  href='/path/to/your-cv.pdf'
-                  download
+                  href='/Mohiuddin_Bilwal_Resume.pdf'
+                  download='Mohiuddin_Bilwal_Resume.pdf'
                   className='text-white bg-blue-500 hover:bg-blue-600 font-medium py-2 px-4 rounded-md'
                 >
-                  Download CV
+                  Download Resume
                 </a>
               </li>
             </ul>
