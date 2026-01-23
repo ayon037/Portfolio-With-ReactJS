@@ -48,6 +48,18 @@ import {
       title: "Work",
     },
     {
+      id: "works",
+      title: "Projects",
+    },
+    {
+      id: "publications",
+      title: "Publications",
+    },
+    {
+      id: "feedbacks",
+      title: "Certificates",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -171,7 +183,7 @@ import {
     {
       title: "Microsoft Azure AI Fundamentals",
       image: microsoft,
-      link: "https://shorturl.at/SPtR0",
+      link: "https://learn.microsoft.com/en-us/users/mohiuddinbilwal-0238/credentials/818d0a58be99fff9?ref=https%3A%2F%2Fwww.linkedin.com%2F",
     },
     {
       title: "Introducing Generative AI with AWS",
@@ -235,7 +247,7 @@ import {
     {
       name: "CVCBC Predictor: Detection of CoronaVirus Using CBC Blood Information",
       description:
-        "Investigated and clarified the possible advantages of using Complete Blood Count (CBC) in addition to PCR in the COVID-19 diagnostic environment by analyzing the CBC blood cell information using different Machine Learning algorithms.",
+        "Investigated and clarified the possible advantages of using Complete Blood Count (CBC) in addition to PCR in the COVID-19 diagnostic environment by analyzing the CBC blood cell information.",
       tags: [
         {
           name: "Machine Learning",

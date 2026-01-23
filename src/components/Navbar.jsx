@@ -18,10 +18,25 @@ const Navbar = () => {
       } else {
         setScrolled(false);
       }
+
+      // Auto-highlight active section based on scroll position
+      const sections = navLinks.map(link => document.getElementById(link.id)).filter(Boolean);
+      const currentSection = sections.find(section => {
+        const rect = section.getBoundingClientRect();
+        return rect.top <= 100 && rect.bottom >= 100;
+      });
+      
+      if (currentSection) {
+        const activeLink = navLinks.find(link => link.id === currentSection.id);
+        if (activeLink) {
+          setActive(activeLink.title);
+        }
+      } else if (scrollTop < 100) {
+        setActive("");
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -43,14 +58,14 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex whitespace-nowrap'>
             Mohiuddin Bilwal &nbsp;
             <span className='sm:block hidden'> | Software Engineer</span>
           </p>
         </Link>
 
         {/* Desktop Menu */}
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden lg:flex flex-row gap-8 mr-4'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -75,7 +90,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Menu */}
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'

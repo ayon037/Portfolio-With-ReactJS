@@ -53,4 +53,4 @@ const Publications = () => {
   );
 }
 
-export default SectionWrapper(Publications, "");
+export default SectionWrapper(Publications, "publications");
