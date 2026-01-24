@@ -105,3 +105,94 @@
 
   /* Additional mobile-specific styles can be added here */
 }
+
+/* Ensure canvas elements render properly on mobile */
+canvas {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Fix for mobile viewport issues */
+@media (max-width: 768px) {
+  /* Ensure proper rendering on mobile */
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Fix canvas positioning */
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+  }
+
+  /* Improve text readability on mobile */
+  .hero-section {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
+  /* Fix for mobile browsers address bar */
+  section {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
+  /* Ensure proper touch targets */
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Optimize performance on mobile */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Fix for iOS Safari */
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Prevent text inflation on some mobile browsers */
+  h1, h2, h3, h4, h5, h6 {
+    text-size-adjust: 100%;
+  }
+}
+
+/* Specific fixes for very small screens */
+@media (max-width: 480px) {
+  .hash-span {
+    margin-top: -80px;
+    padding-bottom: 80px;
+  }
+
+  /* Reduce padding on small screens */
+  .sm\:px-16 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Better spacing for cards */
+  .rounded-2xl, .rounded-3xl {
+    border-radius: 1rem;
+  }
+}
+
+/* Fix for landscape mobile orientation */
+@media (max-width: 768px) and (orientation: landscape) {
+  section {
+    min-height: auto;
+  }
+
+  .h-screen {
+    height: auto;
+    min-height: 100vh;
+  }
+}
